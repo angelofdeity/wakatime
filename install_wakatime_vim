@@ -49,4 +49,5 @@ if ! vim +PluginInstall +qall; then
   echo "Failed to install the Vim Wakatime plugin. Please check your internet connection and try again."
   exit 1
 fi
+vim
 exit 0
